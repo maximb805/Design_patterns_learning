@@ -5,27 +5,6 @@ import edu.design_patterns.factory.pizzeria.pizzas.*;
 
 public class CaliforniaPizzeria extends Pizzeria {
 
-//    @Override
-//    public Pizza createPizza(PizzaType pizzaType) {
-//        switch (pizzaType) {
-//            case CHEESE -> {
-//                return new CaliforniaStyleCheesePizza();
-//            }
-//            case VEGGIE -> {
-//                return new CaliforniaStyleVeggiePizza();
-//            }
-//            case MUSHROOM -> {
-//                return new CaliforniaStyleMushroomPizza();
-//            }
-//            case PEPPERONI -> {
-//                return new CaliforniaStylePepperoniPizza();
-//            }
-//            default -> {
-//                return null;
-//            }
-//        }
-//    }
-
     @Override
     public Pizza createPizza(PizzaType pizzaType) {
         Pizza pizza = null;
